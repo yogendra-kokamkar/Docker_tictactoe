@@ -1,4 +1,6 @@
-# Docker_tictactoe
+# Usage
+tictactoe.py - Contains the code for TIC TAC TOE written in Python
+
 Dockerfile - Contains code for Tic Tac Toe game build on Ubuntu 18.04 as a base container (66 MB)
 #Command
 sudo docker build -t yogendrakokamkar/tictactoe:ubuntu -f Dockerfile .
