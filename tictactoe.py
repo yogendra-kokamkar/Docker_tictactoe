@@ -39,8 +39,8 @@ def create_grid():
 def sym():
 # This function decides the players' symbols
     symbol_1 = input("Player 1, do you want to be X or O? ")
-    if symbol_1 == "X":
-        symbol_2 = "O"
+    if symbol_1 == "X" or "x":
+        symbol_2 = "O" or "o"
         print("Player 2, you are O. ")
     else:
         symbol_2 = "X"
